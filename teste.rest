@@ -1,0 +1,23 @@
+POST http://localhost/jorge2/api.php
+Content-Type: application/json
+
+{
+ "nome": "Nôemi Cordeíro Olégario Soares",
+ "email": "jofdfgs@gmail.com",
+ "senha": "@Senha123",
+ "telefone": "(31) 95367-6201",
+ "endereco": "Rua A, 123",
+ "estado": "MG",
+ "data_nascimento": "1930-01-02"
+}
+
+###
+GET http://localhost/jorge2/api.php
+Accept: application/json
+
+###
+GET http://localhost/jorge2/api.php?id=USR0010
+Accept: application/json
+
+###
+DELETE http://localhost/jorge2/api.php?id=USR0010
